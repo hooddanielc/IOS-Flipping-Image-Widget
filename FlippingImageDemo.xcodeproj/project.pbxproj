@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		92532F91163F12DE00569966 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92532F90163F12DE00569966 /* UIKit.framework */; };
+		92532F93163F12DE00569966 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92532F92163F12DE00569966 /* Foundation.framework */; };
+		92532F95163F12DE00569966 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92532F94163F12DE00569966 /* CoreGraphics.framework */; };
+		92532F9B163F12DE00569966 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 92532F99163F12DE00569966 /* InfoPlist.strings */; };
+		92532F9D163F12DE00569966 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 92532F9C163F12DE00569966 /* main.m */; };
+		92532FA1163F12DE00569966 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 92532FA0163F12DE00569966 /* AppDelegate.m */; };
+		92532FA3163F12DE00569966 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 92532FA2163F12DE00569966 /* Default.png */; };
+		92532FA5163F12DE00569966 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 92532FA4163F12DE00569966 /* Default@2x.png */; };
+		92532FA7163F12DE00569966 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 92532FA6163F12DE00569966 /* Default-568h@2x.png */; };
+		92532FAF163F12DE00569966 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92532FAE163F12DE00569966 /* SenTestingKit.framework */; };
+		92532FB0163F12DE00569966 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92532F90163F12DE00569966 /* UIKit.framework */; };
+		92532FB1163F12DE00569966 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92532F92163F12DE00569966 /* Foundation.framework */; };
+		92532FB9163F12DE00569966 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 92532FB7163F12DE00569966 /* InfoPlist.strings */; };
+		92532FBC163F12DE00569966 /* FlippingImageDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 92532FBB163F12DE00569966 /* FlippingImageDemoTests.m */; };
+		92532FC7163F12FC00569966 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92532FC6163F12FC00569966 /* MyViewController.m */; };
+		92532FCE163F146F00569966 /* borderSomething.png in Resources */ = {isa = PBXBuildFile; fileRef = 92532FCC163F146F00569966 /* borderSomething.png */; };
+		92532FCF163F146F00569966 /* moon.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 92532FCD163F146F00569966 /* moon.jpeg */; };
+		92532FD4163F15AA00569966 /* FlippingImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 92532FD3163F15AA00569966 /* FlippingImage.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		92532FB2163F12DE00569966 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92532F83163F12DE00569966 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92532F8B163F12DE00569966;
+			remoteInfo = FlippingImageDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		92532F8C163F12DE00569966 /* FlippingImageDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlippingImageDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		92532F90163F12DE00569966 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		92532F92163F12DE00569966 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		92532F94163F12DE00569966 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		92532F98163F12DE00569966 /* FlippingImageDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlippingImageDemo-Info.plist"; sourceTree = "<group>"; };
+		92532F9A163F12DE00569966 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		92532F9C163F12DE00569966 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		92532F9E163F12DE00569966 /* FlippingImageDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FlippingImageDemo-Prefix.pch"; sourceTree = "<group>"; };
+		92532F9F163F12DE00569966 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		92532FA0163F12DE00569966 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		92532FA2163F12DE00569966 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		92532FA4163F12DE00569966 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		92532FA6163F12DE00569966 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		92532FAD163F12DE00569966 /* FlippingImageDemoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlippingImageDemoTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		92532FAE163F12DE00569966 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		92532FB6163F12DE00569966 /* FlippingImageDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlippingImageDemoTests-Info.plist"; sourceTree = "<group>"; };
+		92532FB8163F12DE00569966 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		92532FBA163F12DE00569966 /* FlippingImageDemoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlippingImageDemoTests.h; sourceTree = "<group>"; };
+		92532FBB163F12DE00569966 /* FlippingImageDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlippingImageDemoTests.m; sourceTree = "<group>"; };
+		92532FC5163F12FC00569966 /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		92532FC6163F12FC00569966 /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
+		92532FCC163F146F00569966 /* borderSomething.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = borderSomething.png; sourceTree = "<group>"; };
+		92532FCD163F146F00569966 /* moon.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = moon.jpeg; sourceTree = "<group>"; };
+		92532FD1163F154400569966 /* FlippingImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlippingImage.h; sourceTree = "<group>"; };
+		92532FD3163F15AA00569966 /* FlippingImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlippingImage.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92532F89163F12DE00569966 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92532F91163F12DE00569966 /* UIKit.framework in Frameworks */,
+				92532F93163F12DE00569966 /* Foundation.framework in Frameworks */,
+				92532F95163F12DE00569966 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92532FA9163F12DE00569966 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92532FAF163F12DE00569966 /* SenTestingKit.framework in Frameworks */,
+				92532FB0163F12DE00569966 /* UIKit.framework in Frameworks */,
+				92532FB1163F12DE00569966 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		92532F81163F12DE00569966 = {
+			isa = PBXGroup;
+			children = (
+				92532F96163F12DE00569966 /* FlippingImageDemo */,
+				92532FB4163F12DE00569966 /* FlippingImageDemoTests */,
+				92532F8F163F12DE00569966 /* Frameworks */,
+				92532F8D163F12DE00569966 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		92532F8D163F12DE00569966 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92532F8C163F12DE00569966 /* FlippingImageDemo.app */,
+				92532FAD163F12DE00569966 /* FlippingImageDemoTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92532F8F163F12DE00569966 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92532F90163F12DE00569966 /* UIKit.framework */,
+				92532F92163F12DE00569966 /* Foundation.framework */,
+				92532F94163F12DE00569966 /* CoreGraphics.framework */,
+				92532FAE163F12DE00569966 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		92532F96163F12DE00569966 /* FlippingImageDemo */ = {
+			isa = PBXGroup;
+			children = (
+				92532F9F163F12DE00569966 /* AppDelegate.h */,
+				92532FA0163F12DE00569966 /* AppDelegate.m */,
+				92532FC5163F12FC00569966 /* MyViewController.h */,
+				92532FC6163F12FC00569966 /* MyViewController.m */,
+				92532FD1163F154400569966 /* FlippingImage.h */,
+				92532FD3163F15AA00569966 /* FlippingImage.m */,
+				92532F97163F12DE00569966 /* Supporting Files */,
+			);
+			path = FlippingImageDemo;
+			sourceTree = "<group>";
+		};
+		92532F97163F12DE00569966 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				92532FCC163F146F00569966 /* borderSomething.png */,
+				92532FCD163F146F00569966 /* moon.jpeg */,
+				92532F98163F12DE00569966 /* FlippingImageDemo-Info.plist */,
+				92532F99163F12DE00569966 /* InfoPlist.strings */,
+				92532F9C163F12DE00569966 /* main.m */,
+				92532F9E163F12DE00569966 /* FlippingImageDemo-Prefix.pch */,
+				92532FA2163F12DE00569966 /* Default.png */,
+				92532FA4163F12DE00569966 /* Default@2x.png */,
+				92532FA6163F12DE00569966 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		92532FB4163F12DE00569966 /* FlippingImageDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				92532FBA163F12DE00569966 /* FlippingImageDemoTests.h */,
+				92532FBB163F12DE00569966 /* FlippingImageDemoTests.m */,
+				92532FB5163F12DE00569966 /* Supporting Files */,
+			);
+			path = FlippingImageDemoTests;
+			sourceTree = "<group>";
+		};
+		92532FB5163F12DE00569966 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				92532FB6163F12DE00569966 /* FlippingImageDemoTests-Info.plist */,
+				92532FB7163F12DE00569966 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92532F8B163F12DE00569966 /* FlippingImageDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92532FBF163F12DE00569966 /* Build configuration list for PBXNativeTarget "FlippingImageDemo" */;
+			buildPhases = (
+				92532F88163F12DE00569966 /* Sources */,
+				92532F89163F12DE00569966 /* Frameworks */,
+				92532F8A163F12DE00569966 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlippingImageDemo;
+			productName = FlippingImageDemo;
+			productReference = 92532F8C163F12DE00569966 /* FlippingImageDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		92532FAC163F12DE00569966 /* FlippingImageDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92532FC2163F12DE00569966 /* Build configuration list for PBXNativeTarget "FlippingImageDemoTests" */;
+			buildPhases = (
+				92532FA8163F12DE00569966 /* Sources */,
+				92532FA9163F12DE00569966 /* Frameworks */,
+				92532FAA163F12DE00569966 /* Resources */,
+				92532FAB163F12DE00569966 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92532FB3163F12DE00569966 /* PBXTargetDependency */,
+			);
+			name = FlippingImageDemoTests;
+			productName = FlippingImageDemoTests;
+			productReference = 92532FAD163F12DE00569966 /* FlippingImageDemoTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92532F83163F12DE00569966 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = yourorganization;
+			};
+			buildConfigurationList = 92532F86163F12DE00569966 /* Build configuration list for PBXProject "FlippingImageDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 92532F81163F12DE00569966;
+			productRefGroup = 92532F8D163F12DE00569966 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92532F8B163F12DE00569966 /* FlippingImageDemo */,
+				92532FAC163F12DE00569966 /* FlippingImageDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92532F8A163F12DE00569966 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92532F9B163F12DE00569966 /* InfoPlist.strings in Resources */,
+				92532FA3163F12DE00569966 /* Default.png in Resources */,
+				92532FA5163F12DE00569966 /* Default@2x.png in Resources */,
+				92532FA7163F12DE00569966 /* Default-568h@2x.png in Resources */,
+				92532FCE163F146F00569966 /* borderSomething.png in Resources */,
+				92532FCF163F146F00569966 /* moon.jpeg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92532FAA163F12DE00569966 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92532FB9163F12DE00569966 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		92532FAB163F12DE00569966 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92532F88163F12DE00569966 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92532F9D163F12DE00569966 /* main.m in Sources */,
+				92532FA1163F12DE00569966 /* AppDelegate.m in Sources */,
+				92532FC7163F12FC00569966 /* MyViewController.m in Sources */,
+				92532FD4163F15AA00569966 /* FlippingImage.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92532FA8163F12DE00569966 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92532FBC163F12DE00569966 /* FlippingImageDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		92532FB3163F12DE00569966 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92532F8B163F12DE00569966 /* FlippingImageDemo */;
+			targetProxy = 92532FB2163F12DE00569966 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		92532F99163F12DE00569966 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92532F9A163F12DE00569966 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		92532FB7163F12DE00569966 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92532FB8163F12DE00569966 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		92532FBD163F12DE00569966 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		92532FBE163F12DE00569966 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92532FC0163F12DE00569966 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlippingImageDemo/FlippingImageDemo-Prefix.pch";
+				INFOPLIST_FILE = "FlippingImageDemo/FlippingImageDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		92532FC1163F12DE00569966 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlippingImageDemo/FlippingImageDemo-Prefix.pch";
+				INFOPLIST_FILE = "FlippingImageDemo/FlippingImageDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		92532FC3163F12DE00569966 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FlippingImageDemo.app/FlippingImageDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlippingImageDemo/FlippingImageDemo-Prefix.pch";
+				INFOPLIST_FILE = "FlippingImageDemoTests/FlippingImageDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		92532FC4163F12DE00569966 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FlippingImageDemo.app/FlippingImageDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlippingImageDemo/FlippingImageDemo-Prefix.pch";
+				INFOPLIST_FILE = "FlippingImageDemoTests/FlippingImageDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92532F86163F12DE00569966 /* Build configuration list for PBXProject "FlippingImageDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92532FBD163F12DE00569966 /* Debug */,
+				92532FBE163F12DE00569966 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92532FBF163F12DE00569966 /* Build configuration list for PBXNativeTarget "FlippingImageDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92532FC0163F12DE00569966 /* Debug */,
+				92532FC1163F12DE00569966 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		92532FC2163F12DE00569966 /* Build configuration list for PBXNativeTarget "FlippingImageDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92532FC3163F12DE00569966 /* Debug */,
+				92532FC4163F12DE00569966 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 92532F83163F12DE00569966 /* Project object */;
+}
